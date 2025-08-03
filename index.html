@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selle Diop - Développeur Fullstack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SD</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Salut, je suis</span>
+                    <span class="name">Selle Diop</span>
+                    <span class="role">Développeur Fullstack</span>
+                </h1>
+                <p class="hero-description">
+                    Je crée des expériences numériques innovantes en combinant design moderne 
+                    et technologies de pointe. Passionné par le développement web et mobile.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <!-- Profile Image -->
+                    <div class="profile-image">
+                        <img src="./images/allonge.jpeg" alt="Selle Diop" class="profile-photo">
+                        <div class="profile-ring"></div>
+                        <div class="profile-glow"></div>
+                    </div>
+                    
+                    <!-- Floating Programming Language Icons -->
+                    <div class="tech-orbit">
+                        <div class="tech-icon tech-icon-1" data-tech="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-2" data-tech="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-3" data-tech="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-4" data-tech="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-5" data-tech="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-6" data-tech="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-7" data-tech="Git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-8" data-tech="Docker">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Code Snippets Floating -->
+                    <div class="code-snippets">
+                        <div class="code-snippet snippet-1">
+                            <span class="code-text">const dev = 'Selle Diop';</span>
+                        </div>
+                        <div class="code-snippet snippet-2">
+                            <span class="code-text">function innovate() {}</span>
+                        </div>
+                        <div class="code-snippet snippet-3">
+                            <span class="code-text">&lt;Portfolio /&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <p class="section-subtitle">Découvrez mon parcours et ma passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Développement</h3>
+                        <p>Passionné par le développement web et mobile, je maîtrise les technologies modernes pour créer des solutions innovantes et performantes.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Innovation</h3>
+                        <p>Toujours à la recherche de nouvelles approches et technologies pour résoudre des problèmes complexes avec créativité.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Collaboration</h3>
+                        <p>J'aime travailler en équipe et partager mes connaissances pour créer des projets exceptionnels ensemble.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="6">6</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="2">2</div>
+                        <div class="stat-label">Années d'expérience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">100</div>
+                        <div class="stat-label">Clients satisfaits</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+                <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                            <span class="skill-name">Angular</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-flutter"></i>
+                            </div>
+                            <span class="skill-name">Flutter</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-ionic"></i>
+                            </div>
+                            <span class="skill-name">ionic</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html"></i>
+                            </div>
+                            <span class="skill-name">Html</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <span class="skill-name">Laravel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="skill-name">Node js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                          <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-synfony"></i>
+                            </div>
+                            <span class="skill-name">Symfony</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MySql</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Outils</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-canva"></i>
+                            </div>
+                            <span class="skill-name">Canva</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes projets</h2>
+                <p class="section-subtitle">Découvrez mes réalisations récentes</p>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+     
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web" data-project="refonte">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <!-- <i class="fas fa-world"></i> -->
+                              <img src="./images/login.png"  width="100%">
+                         
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Projet de refonte de la plateforme ETPE du Trésor Public du Sénégal</h3>
+                        <p class="project-description">
+                           Plateforme de gestion des paiements des agents de l'État sénégalais
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySql</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile" data-project="mobile-livelearn">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                                 <img src="./images/login-mobile.jpeg"  width="100%">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application Mobile-Gestion de Cours Livelearn</h3>
+                        <p class="project-description">
+                            Application mobile dédiée à la gestion interactive de cours en ligne.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">WordPress</span>
+                             <span class="tech-tag">Laravel</span>
+                              <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">MySql</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" data-project="livelearn-web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                              <img src="./images/login-web.png"  width="100%">
+                           
+                           
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application Web-Gestion de Cours Livelearn</h3>
+                        <p class="project-description">
+                               Application web dédiée à la gestion interactive de cours en ligne.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">WordPress</span>
+                             <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySql</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="project-card" data-category="web" data-project="task-simplon">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="./images/simplon1.jpeg"  width="100%">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Plateforme web Simplon Projet</h3>
+                        <p class="project-description">
+                        La Simplon Projet est une plateforme de Simplon Africa qui a été créé dans le but de permettre...
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Mysql</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile" data-project="duaneko">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Social Network</h3>
+                        <p class="project-description">
+                            Réseau social avec messagerie temps réel et partage de contenu.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">Discutons de votre prochain projet</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-centered">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>diophussary@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <p>+221 77 878 77 78 </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localisation</h3>
+                            <p>Dakar, Sicap-Liberté 4,Senegal</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/s%C3%A9ll%C3%A9-diop-126366245/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/dashboard" class="social-link"><i class="fab fa-github"></i></a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Selle Diop. Tous droits réservés.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Accueil</a>
+                    <a href="#about">À propos</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle" class="modal-title">Nom du Projet</h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="project-gallery">
+                    <div class="gallery-main">
+                        <img id="mainImage" src="" alt="Image principale" class="main-image">
+                        <div class="image-counter">
+                            <span id="currentImage">1</span> / <span id="totalImages">1</span>
+                        </div>
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <!-- Thumbnails will be dynamically generated -->
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Description</h3>
+                        <p id="modalDescription">Description du projet...</p>
+                    </div>
+                    <div class="project-tech-stack">
+                        <h3>Technologies utilisées</h3>
+                        <div id="modalTechStack" class="tech-stack-list">
+                            <!-- Tech stack will be dynamically generated -->
+                        </div>
+                    </div>
+                    <div class="project-links-modal">
+                        <a href="#" id="modalLiveLink" class="modal-btn btn-primary" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Voir le site
+                        </a>
+                        <a href="#" id="modalGithubLink" class="modal-btn btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-navigation">
+                <button id="prevImage" class="nav-btn nav-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="nextImage" class="nav-btn nav-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS SDK -->
+    <script src="script.js"></script>
+</body>
+</html>
