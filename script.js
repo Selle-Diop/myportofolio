@@ -261,7 +261,7 @@ function initProjectModal() {
             title: 'Projet de refonte de la plateforme ETPE du Trésor Public du Sénégal',
             description: 'Plateforme de gestion des paiements des agents de l\'État sénégalais en poste à l\'étranger. Modernisation du système pour améliorer la traçabilité, la sécurité et l\'efficacité des transactions financières internationales',
             techStack: ['Angular', 'Java', 'MySql',],
-            liveUrl: 'sim',
+            liveUrl: 'https://precious-sorbet-6a48e1.netlify.app/',
             githubUrl: 'https://github.com/dashboard',
             images: [
                 './images/login.png',
@@ -298,7 +298,7 @@ function initProjectModal() {
             title: 'Plateforme web Simplon Projet',
             description: 'La Simplon Projet est une plateforme de Simplon Africa qui a été créé dans le but de permettre à toutes les Fabriques propres de Simplon Africa de centralisé leur données et de gérer les projet de manière plus efficace et adapté à leurs activités de formation.**Solution interne** déployée à l\'échelle du réseau,Adaptée aux spécificités des centres de formation Simplon,Interface intuitive pour une prise en main rapide',
             techStack: ['Angular', 'Laravel','MySql'],
-            liveUrl: 'https://example.com',
+            liveUrl: 'https://precious-sorbet-6a48e1.netlify.app/',
             githubUrl:'https://github.com/dashboard',
             images: [
                './images/simplon1.jpeg',
@@ -313,7 +313,7 @@ function initProjectModal() {
             title: 'Social Network',
             description: 'Réseau social moderne avec système de posts, messagerie en temps réel, profils utilisateurs, système d\'amis et notifications. Architecture scalable et sécurisée pour gérer de nombreux utilisateurs.',
             techStack: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Redis'],
-            liveUrl: 'https://example.com',
+            liveUrl: 'https://precious-sorbet-6a48e1.netlify.app/',
             githubUrl: 'https://github.com/example',
             images: [
                 'https://via.placeholder.com/800x600/fbbf24/1f2937?text=News+Feed',
