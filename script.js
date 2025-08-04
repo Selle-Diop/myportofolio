@@ -197,7 +197,9 @@ function initSkillBars() {
             const skillName = bar.closest('.skill-item').querySelector('.skill-name').textContent;
             const percentages = {
                 'JavaScript': '95',
-                'React': '90',
+                'React': '80',
+                'Flutter': '90',
+                'Angular': '90',
                 'Node.js': '88',
                 'Python': '85',
                 'HTML5': '98',
@@ -228,7 +230,8 @@ function initProjectFiltering() {
                 if (filterValue === 'all' || card.classList.contains(filterValue)) {
                     card.style.display = 'block';
                     card.style.animation = 'fadeInUp 0.6s ease';
-                } else {
+                } 
+                else {
                     card.style.display = 'none';
                 }
             });
@@ -261,7 +264,7 @@ function initProjectModal() {
             title: 'Projet de refonte de la plateforme ETPE du Trésor Public du Sénégal',
             description: 'Plateforme de gestion des paiements des agents de l\'État sénégalais en poste à l\'étranger. Modernisation du système pour améliorer la traçabilité, la sécurité et l\'efficacité des transactions financières internationales',
             techStack: ['Angular', 'Java', 'MySql',],
-            liveUrl: 'https://precious-sorbet-6a48e1.netlify.app/',
+            liveUrl: '',
             githubUrl: 'https://github.com/dashboard',
             images: [
                 './images/login.png',
@@ -298,7 +301,7 @@ function initProjectModal() {
             title: 'Plateforme web Simplon Projet',
             description: 'La Simplon Projet est une plateforme de Simplon Africa qui a été créé dans le but de permettre à toutes les Fabriques propres de Simplon Africa de centralisé leur données et de gérer les projet de manière plus efficace et adapté à leurs activités de formation.**Solution interne** déployée à l\'échelle du réseau,Adaptée aux spécificités des centres de formation Simplon,Interface intuitive pour une prise en main rapide',
             techStack: ['Angular', 'Laravel','MySql'],
-            liveUrl: 'https://precious-sorbet-6a48e1.netlify.app/',
+            liveUrl: '',
             githubUrl:'https://github.com/dashboard',
             images: [
                './images/simplon1.jpeg',
@@ -313,7 +316,7 @@ function initProjectModal() {
             title: 'Social Network',
             description: 'Réseau social moderne avec système de posts, messagerie en temps réel, profils utilisateurs, système d\'amis et notifications. Architecture scalable et sécurisée pour gérer de nombreux utilisateurs.',
             techStack: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Redis'],
-            liveUrl: 'https://precious-sorbet-6a48e1.netlify.app/',
+            liveUrl: '',
             githubUrl: 'https://github.com/example',
             images: [
                 'https://via.placeholder.com/800x600/fbbf24/1f2937?text=News+Feed',
@@ -334,7 +337,9 @@ function initProjectModal() {
         // Populate modal content
         modalTitle.textContent = currentProject.title;
         modalDescription.textContent = currentProject.description;
-        modalLiveLink.href = currentProject.liveUrl;
+        // modalLiveLink.href = currentProject.liveUrl;
+        modalLiveLink.href = currentProject.liveUrl || '#';
+modalLiveLink.style.display = currentProject.liveUrl ? 'inline-block' : 'none';
         modalGithubLink.href = currentProject.githubUrl;
 
         // Tech stack
